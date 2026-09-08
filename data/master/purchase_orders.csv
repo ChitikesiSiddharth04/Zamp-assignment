@@ -1,0 +1,7 @@
+po_number,vendor_id,description,currency,po_amount,po_date,status,tolerance_pct,tolerance_abs,allow_partial,buyer_name,buyer_email,cost_center
+PO-10231,V-1001,Cloud infrastructure - annual commitment,USD,48200.00,2026-07-12,OPEN,2.0,500.0,false,Priya Raman,priya.raman@northgate.example,CC-ENG-01
+PO-10244,V-1002,"Inbound ocean + drayage freight, rolling quarter",USD,120000.00,2026-07-18,OPEN,2.0,750.0,true,Daniel Okonkwo,daniel.okonkwo@northgate.example,CC-OPS-04
+PO-10250,V-1003,MRO consumables blanket order,USD,26000.00,2026-07-24,OPEN,3.0,400.0,true,Sara Whitfield,sara.whitfield@northgate.example,CC-FAC-02
+PO-10255,V-1001,Security tooling add-on seats,USD,15750.00,2026-07-30,OPEN,2.0,500.0,false,Priya Raman,priya.raman@northgate.example,CC-ENG-01
+PO-10260,V-1004,"Brand refresh, phase 1",USD,18000.00,2026-08-04,OPEN,5.0,300.0,true,Marcus Bell,marcus.bell@northgate.example,CC-MKT-03
+PO-10199,V-1002,Prior quarter freight - closed,USD,90000.00,2026-03-02,CLOSED,2.0,750.0,true,Daniel Okonkwo,daniel.okonkwo@northgate.example,CC-OPS-04

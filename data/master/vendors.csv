@@ -1,0 +1,6 @@
+vendor_id,legal_name,aliases,status,tax_id,country,currency,bank_last4,remit_domain,payment_terms,category
+V-1001,Apex Cloud Systems Inc.,Apex Cloud|Apex Cloud Systems|Apex Cloud Systems Incorporated,ACTIVE,US-84-2210934,US,USD,4471,apexcloud.com,NET30,SaaS
+V-1002,Meridian Freight Services LLC,Meridian Freight|Meridian Freight Services,ACTIVE,US-77-5540192,US,USD,8820,meridianfreight.com,NET45,Logistics
+V-1003,Borealis Industrial Supply Co.,Borealis Industrial|Borealis Supply,ACTIVE,US-45-1128773,US,USD,3095,borealis-supply.com,NET30,MRO
+V-1004,Lumen Design Studio,Lumen Design|Lumen Studio,ACTIVE,US-92-3348810,US,USD,7712,lumendesign.co,NET15,Creative
+V-1005,Vertex Talent Partners,Vertex Talent,ON_HOLD,US-33-9982211,US,USD,5540,vertextalent.com,NET30,Staffing

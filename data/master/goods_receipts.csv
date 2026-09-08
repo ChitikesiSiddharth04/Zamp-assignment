@@ -1,0 +1,6 @@
+gr_id,po_number,received_amount,received_date,note
+GR-5501,PO-10231,48200.00,2026-08-19,Service period confirmed by engineering
+GR-5502,PO-10244,72500.00,2026-08-23,Partial - February vessel arrivals
+GR-5503,PO-10244,45000.00,2026-09-02,Partial - March drayage
+GR-5510,PO-10250,9681.00,2026-08-30,Consumables delivered to Plant 2
+GR-5515,PO-10255,15750.00,2026-08-28,Seats provisioned

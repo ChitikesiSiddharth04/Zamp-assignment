@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northgate AP — invoice to decision</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🧾</text></svg>">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><b>Northgate AP</b><span>invoice → decision</span></div>
+    <div class="spacer"></div>
+    <div id="engines" style="display:flex;gap:6px"></div>
+    <button class="ghost" id="btn-reset" title="Clear all runs, the ledger and the queue">Reset demo</button>
+  </header>
+  <div class="body">
+    <nav class="nav" id="nav">
+      <div class="sect">Process</div>
+      <button data-v="run" class="sel">Run an invoice</button>
+      <button data-v="queue">Exception queue <span class="count" id="n-queue">0</span></button>
+      <div class="sect">Oversight</div>
+      <button data-v="dash">Dashboard <span class="count" id="n-runs">0</span></button>
+      <button data-v="ref">Reference data</button>
+    </nav>
+    <main class="view" id="view"></main>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
