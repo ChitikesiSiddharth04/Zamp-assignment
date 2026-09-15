@@ -1,14 +1,9 @@
 services:
   - type: web
     name: zamp-ap
-    runtime: python311
-    buildCommand: |
-      pip install -r requirements.txt && \
-      python scripts/make_samples.py
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 8080
+    runtime: docker
+    dockerfilePath: ./Dockerfile
     envVars:
-      - key: PYTHON_VERSION
-        value: "3.11"
       - key: AP_STAGE_DELAY_MS
         value: "0"
     plan: free
